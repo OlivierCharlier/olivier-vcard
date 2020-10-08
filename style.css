@@ -1,4 +1,7 @@
 body {
+    background-image: url(img/liege.gif);
+    background-repeat:no-repeat;
+    background-position:50% 50%;
     background-color: grey;
     margin: 0;
 }
