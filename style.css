@@ -1,36 +1,17 @@
 body {
     background-color: grey;
     margin: 0;
+    padding: 3vh 10vw;
 }
-
-.page {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 4fr 1fr;
-    grid-template-areas:
-    "cave cave cave"
-    "cave chambre cave"
-    "cave cave cave";
-    }
-    .grenier{
-    grid-area: grenier;
-    background-color: aqua;
-    }
-    .chambre {
-      grid-area: chambre;
-      background-color: blue;
-      color: grey;
-      width: 500px;
-      margin-left: auto;
-      margin-right: auto;
-      height: 300px;
-      padding: 20px;
-    }
-    .cave { 
-      grid-area: cave;
-      background-color: crimson;
-    }
+.bloc {
+    background-color: white;
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+    padding: 25px;
+}
 
 p {
     text-align: center;
